@@ -11,8 +11,8 @@ data={ 'Name':['Akash','Neeraj','Preetam'],
 df=pd.DataFrame(data)
 
 #new row
-#new_data1={"Name":"kirti","Age":30,"City":"Ayodhya"}
-#df.loc[len(df.index)] = new_data1
+new_data1={"Name":"kirti","Age":30,"City":"Ayodhya"}
+df.loc[len(df.index)] = new_data1
 
 #new row
 #new_data2={"Name":"preeti","Age":24,"City":"Lucknow"}
